@@ -1,0 +1,20 @@
+services:
+  currency-report:
+    build: ./currency-report
+    container_name: currency-report
+    ports:
+      - "8100:80"  # Mapeia porta 80 do container para 8100 do host
+    networks:
+      - currency-network
+
+  currency-history:
+    build: ./currency-history
+    container_name: currency-history
+    ports:
+      - "8101:80"  # Mapeia porta 80 do container para 8101 do host
+    networks:
+      - currency-network
+
+networks:
+  currency-network:
+    driver: bridge
