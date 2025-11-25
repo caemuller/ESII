@@ -1,11 +1,5 @@
-# Trabalho Prático — Microsserviços de Câmbio
+# Trabalho Final ESII
 
-Este projeto implementa dois microsserviços para consulta de dados de câmbio (report e histórico), integrados via Docker Compose e com pipeline de CI configurado.
-
-## Tecnologias
-- Python (FastAPI)
-- Docker & Docker Compose
-- GitHub Actions (CI)
 
 ## Passos para subir o ambiente
 
