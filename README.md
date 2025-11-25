@@ -3,9 +3,7 @@
 
 ## Passos para subir o ambiente
 
-Certifique-se de ter o Docker e o Docker Compose instalados.
-
-1. Na raiz do projeto, execute:
+1. Executar o seguinte comando na raiz:
    ```bash
    docker compose up --build
    ```
