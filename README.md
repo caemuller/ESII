@@ -37,6 +37,20 @@
   curl "http://localhost:8101/history?from=USD&to=BRL"
   ```
 
+## Rodar testes usando Pytest
+
+basta rodar 
+
+```bash
+docker compose run --rm currency-report pytest -v
+```
+
+e
+
+```bash
+docker compose run --rm currency-history pytest -v
+```
+
 ### Uso de IA Generativa
 
 Foi utilizado o github copilot para realizar tarefas especialmente nos arquivvos .yaml nas aprtes de estrutura e os dockerfiles em geral.
